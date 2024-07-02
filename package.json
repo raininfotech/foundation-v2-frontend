@@ -1,16 +1,23 @@
 {
-  "name": "foundation-v2-frontend",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.4"
-  }
+    "name": "Foundation-v2-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev -p 2006",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "jquery": "^3.7.1",
+        "moment": "^2.30.1",
+        "next": "14.2.4",
+        "react": "^18",
+        "react-dom": "^18",
+        "react-paginate": "^8.2.0"
+    },
+    "devDependencies": {
+        "eslint": "^8",
+        "eslint-config-next": "14.2.4"
+    }
 }

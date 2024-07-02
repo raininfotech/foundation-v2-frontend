@@ -1,0 +1,83 @@
+@media (max-width:1440px) and (min-width:1025px)
+{
+    .memes-carosel .item
+    {
+        margin: 0 24px 81px 18px;
+    }
+}
+
+@media (max-width:1024px) and (min-width:767px)
+{
+    .memes-carosel .item
+    {
+        margin: 0 24px 81px 20px;
+    }
+
+    .tablebg
+    {
+        padding: 30px 50px;
+    }
+}
+
+@media (max-width:768px) and (min-width:426px)
+{
+    .tablebg
+    {
+        padding: 20px 30px;
+    }
+}
+
+@media (max-width:609px) and (min-width:426px)
+{
+    .memes-carosel .item
+    {
+        margin: 0 24px 81px 25px;
+    }
+}
+
+@media (max-width:425px)
+{
+    footer
+    {
+        padding: 25px 0;
+    }
+}
+
+@media (max-width:425px) and (min-width:376px)
+{
+    .memes-carosel .item
+    {
+        margin: 0 24px 81px 25px;
+    }
+
+    .tablebg
+    {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width:375px) and (min-width:321px)
+{
+    .memes-carosel .item
+    {
+        margin: 0 11px 81px 11px;
+    }
+
+    .tablebg
+    {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width:320px)
+{
+    .memes-carosel .item
+    {
+        margin: 0 0px 81px 0px;
+    }
+
+    .tablebg
+    {
+        padding: 20px 10px;
+    }
+}
