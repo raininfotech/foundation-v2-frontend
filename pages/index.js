@@ -28,6 +28,54 @@ export default function Home() {
     return (
         <>
             <div className="container-fluid">
+                <div className="row">
+                    <div className="col-12">
+                        <div className="row">
+                            <div className="col-xl-4 col-lg-6 col-md-12 col-12 mb-4">
+                                <div className="card">
+                                    <div className="card-header">
+                                        <h6 className="headtitle">Global Stats</h6>
+                                    </div>
+                                    <div className="card-body">
+                                        <div className="row text-center">
+                                            <h5 className="custh5"><i className="fa fa-flask fs-6 me-2"></i>sha256d</h5>
+                                            <h5 className="custh5"><i className="fa fa-users fs-6 me-2"></i>{list[0]?.miners} Miners</h5>
+                                            <h5 className="custh5"><i className="fa fa-tachometer fs-6 me-2"></i>{parseFloat((list[0]?.hashrate || 0) / 1000000).toFixed(2)} MH</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-4 col-lg-6 col-md-12 col-12 mb-4">
+                                <div className="card">
+                                    <div className="card-header">
+                                        <h6 className="headtitle">Pools / Coins</h6>
+                                    </div>
+                                    <div className="card-body">
+                                        <div className="row text-center">
+                                            <h5 className="custh5"><i className="fa fa-dot-circle-o fs-6 me-2"></i>{coinname} coin</h5>
+                                            <h5 className="custh5"><i className="fa fa-users fs-6 me-2"></i>{list[0]?.miners} Miners</h5>
+                                            <h5 className="custh5"><i className="fa fa-tachometer fs-6 me-2"></i>{parseFloat((list[0]?.hashrate || 0) / 1000000).toFixed(2)} MH</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-4 col-lg-6 col-md-12 col-12 mb-4">
+                                <div className="card">
+                                    <div className="card-header">
+                                        <h6 className="headtitle">Configuration</h6>
+                                    </div>
+                                    <div className="card-body">
+                                        <div className="row">
+                                            <h5 className="custh5">Username: your {coinname} wallet address</h5>
+                                            <h5 className="custh5">Password: anything </h5>
+                                            <h5 className="custh5">URL: {stratum}</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="row mt-4">
                     <div className="col-12 mb-3">
                         <h4 className="headtitle fs30">Guide</h4>
